@@ -1,6 +1,8 @@
 # 🖥️ Simple AHK Script for Switching Virtual Desktops (No Animation)
 
-Quick script to jump between virtual desktops instantly without those annoying transition animations.
+**Fast virtual desktop switching without transition animations**
+
+**Configurable single toggle key that triggers virtual desktop switching**
 
 ## 📋 Requirements
 - **script** 📥[Download here](https://github.com/dave-tl/WinQuickSwitch/blob/main/quickswitch.ahk)
