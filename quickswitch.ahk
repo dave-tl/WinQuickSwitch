@@ -1,4 +1,4 @@
-; ===========================================
+﻿; ===========================================
 ; CONFIGURATION - Change this to remap the toggle key
 ; ===========================================
 TOGGLE_KEY := "``"  ; Change this to any key you want (e.g., "F1", "CapsLock", "Space", "Tab", etc.)
