@@ -17,5 +17,5 @@ Quick script to jump between virtual desktops instantly without those annoying t
 
 The toggle key can easily be remapped in `quickswitch.ahk` on the 4th line of the script:
 ```ahk
-TOGGLE_KEY := "``"
+TOGGLE_KEY := "~"
 ```
