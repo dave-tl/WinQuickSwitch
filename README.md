@@ -5,6 +5,7 @@ Quick script to jump between virtual desktops instantly without those annoying t
 ## 📋 Requirements
 
 - **AutoHotkey v2+**
+- [Download here](https://www.autohotkey.com/download/)
 - **VirtualDesktopAccessor DLL** (kills the animations)  
   📥 [Download here](https://github.com/Ciantic/VirtualDesktopAccessor)
 
