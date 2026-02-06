@@ -251,7 +251,6 @@ static HICON CreateDesktopSwitchIcon(int size) {
     // Black = opaque, White = transparent
     RECT rc = {0, 0, size, size};
     HBRUSH hbrWhite = (HBRUSH)GetStockObject(WHITE_BRUSH);
-    HBRUSH hbrBlack = (HBRUSH)GetStockObject(BLACK_BRUSH);
     FillRect(hdcMask, &rc, hbrWhite);
 
     // Make drawn pixels opaque in mask

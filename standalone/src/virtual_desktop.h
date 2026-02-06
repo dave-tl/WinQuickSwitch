@@ -25,6 +25,12 @@
 #include <objbase.h>
 #include <unknwn.h>
 
+// HSTRING is a WinRT type; we only need it as an opaque pointer for vtable padding
+#ifndef __HSTRING_DEFINED
+#define __HSTRING_DEFINED
+typedef struct HSTRING__* HSTRING;
+#endif
+
 // =============================================================================
 // GUIDs - Stable across Windows versions
 // =============================================================================

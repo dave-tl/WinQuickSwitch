@@ -49,7 +49,7 @@ REM Compile with resources
 echo [2/3] Compiling source...
 g++ -O2 -Wall -Wextra -DUNICODE -D_UNICODE -DNDEBUG ^
     -Isrc ^
-    -mwindows ^
+    -mwindows -municode ^
     src\main.cpp src\virtual_desktop.cpp src\app.res.o ^
     -o WinQuickSwitch.exe ^
     -luser32 -lshell32 -lole32 -ladvapi32 -luuid -lcomctl32
@@ -67,7 +67,7 @@ REM Compile without resources
 echo [2/3] Compiling source (no resources)...
 g++ -O2 -Wall -Wextra -DUNICODE -D_UNICODE -DNDEBUG ^
     -Isrc ^
-    -mwindows ^
+    -mwindows -municode ^
     src\main.cpp src\virtual_desktop.cpp ^
     -o WinQuickSwitch.exe ^
     -luser32 -lshell32 -lole32 -ladvapi32 -luuid -lcomctl32

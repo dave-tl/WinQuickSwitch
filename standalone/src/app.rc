@@ -2,7 +2,7 @@
 #include "resource.h"
 
 // Application manifest for DPI awareness and modern controls
-1 RT_MANIFEST "..\\app.manifest"
+1 RT_MANIFEST "app.manifest"
 
 // Version information
 VS_VERSION_INFO VERSIONINFO
